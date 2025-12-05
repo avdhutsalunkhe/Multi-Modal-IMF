@@ -13,9 +13,9 @@ Then it allows you to **chat with the document**, with grounded answers that inc
 ---
 ## 📂 Download Dataset / Project Files (PDF + Extracted Images)
 
-All required files — including the IMF PDF, extracted images, screenshots, and supporting documents — can be downloaded here:
+All required files including the IMF PDF, extracted images, screenshots, and supporting documents — can be downloaded here:
 
-👉 Google Drive Link:
+👉 Google Drive Link: https://drive.google.com/drive/folders/1I_oR_JW16xP33-Cj2ddoH28NgLLvsakt?usp=drive_link
 ---
 
 ## 🔧 1. Tech Stack
