@@ -11,6 +11,12 @@ It reads a complex IMF PDF report (such as the Qatar Article IV) and breaks it i
 Then it allows you to **chat with the document**, with grounded answers that include **citations** (page number, content type, and relevance).
 
 ---
+## 📂 Download Dataset / Project Files (PDF + Extracted Images)
+
+All required files — including the IMF PDF, extracted images, screenshots, and supporting documents — can be downloaded here:
+
+👉 Google Drive Link:
+---
 
 ## 🔧 1. Tech Stack
 
