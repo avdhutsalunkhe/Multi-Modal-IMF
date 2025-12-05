@@ -1,4 +1,4 @@
-# 📚 Multi-Modal IMF Document RAG (Qatar Article IV)
+# 📚 Multi-Modal IMF Document RAG
 
 This project is a **multi-modal Retrieval-Augmented Generation (RAG)** system built for the **Big AIR Lab** assignment.
 
@@ -15,12 +15,12 @@ Then it allows you to **chat with the document**, with grounded answers that inc
 ## 🔧 1. Tech Stack
 
 - **Python** (3.10 recommended)
-- **Streamlit** – interactive UI
-- **PyMuPDF** – PDF parsing
-- **Tesseract OCR** – extract text from images/charts
-- **Sentence-Transformers (MiniLM)** – embedding model
-- **FAISS** – vector database for fast retrieval
-- **Transformers (FLAN-T5 or others)** – answer generation LLM
+- **Streamlit** - interactive UI
+- **PyMuPDF** - PDF parsing
+- **Tesseract OCR** - extract text from images/charts
+- **Sentence-Transformers (MiniLM)** - embedding model
+- **FAISS** - vector database for fast retrieval
+- **Transformers (FLAN-T5 or others)** - answer generation LLM
 
 ---
 
@@ -45,14 +45,14 @@ multi-model_assignment/
 ```
 # 🧠 Multi-Modal IMF RAG
 
-A powerful document intelligence pipeline for analyzing IMF reports (or any PDF) using multimodal reasoning — combining OCR, text extraction, and vector search with FAISS.
+A powerful document intelligence pipeline for analyzing IMF reports (or any PDF) using multimodal reasoning - combining OCR, text extraction, and vector search with FAISS.
 
 ---
 
 ## 🛠️ Setup Instructions
 
 ### 🔧 1. Clone the Repository
-git clone https://github.com/<your-username>/multi-modal-imf-rag.git
+git clone https://github.com/avdhutsalunkhe/Multi-Model-IMF.git
 cd multi-modal-imf-rag
 
 text
@@ -109,13 +109,13 @@ text
 data/raw/qatar_test_doc.pdf
 
 text
-You may rename the file — just make sure it stays in the `raw` folder.
+You may rename the file - just make sure it stays in the `raw` folder.
 
 ---
 
 ### 🚀 6. Run the Processing Pipeline
 
-**Step 1 — Extract Text, Tables & Images (OCR)**
+**Step 1 - Extract Text, Tables & Images (OCR)**
 python process_document.py
 
 text
@@ -129,7 +129,7 @@ Generated: data/processed/extracted_chunks.json
 
 text
 
-**Step 2 — Create Embeddings + Build FAISS Index**
+**Step 2 - Create Embeddings + Build FAISS Index**
 python create_embeddings.py
 
 text
@@ -187,7 +187,7 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 ---
 
 ## 👥 Contributors
-- **Your Name** — Author / Maintainer  
-- (Add other contributors or links here)
+- **Avdhut Salunkhe** - Author
+
 
 ---
