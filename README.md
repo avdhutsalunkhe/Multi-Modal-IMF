@@ -20,14 +20,22 @@ All required files including the IMF PDF, extracted images, screenshots, and sup
 
 ## 🔧 1. Tech Stack
 
-- **Python** (3.10 recommended)
-- **Streamlit** - interactive UI
-- **PyMuPDF** - PDF parsing
-- **Tesseract OCR** - extract text from images/charts
-- **Sentence-Transformers (MiniLM)** - embedding model
-- **FAISS** - vector database for fast retrieval
-- **Transformers (FLAN-T5 or others)** - answer generation LLM
+**Core Libraries:**
+- `streamlit` - interactive UI
+- `pymupdf` - PDF parsing
+- `pytesseract` - extract text from images/charts
+- `sentence-transformers` - embedding model (MiniLM)
+- `faiss-cpu` - vector database for fast retrieval
+- `transformers` - answer generation LLM
 
+**Utilities:**
+- `python-dotenv` - environment management
+- `Pillow` - image processing
+- `langchain`, `langchain-community`, `langchain-huggingface`, `langchain-core` - RAG framework
+- `torch`, `huggingface-hub` - ML backend
+- `pandas`, `numpy` - data processing
+
+**Python 3.10+ recommended** [file:1]
 ---
 
 ## 📁 2. Project Structure
