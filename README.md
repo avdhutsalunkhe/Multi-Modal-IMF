@@ -1,6 +1,6 @@
 # 📚 Multi-Modal IMF Document RAG
 
-This project is a **multi-modal Retrieval-Augmented Generation (RAG)** system built for the **Big AIR Lab** assignment.
+This project is a **multi-modal Retrieval-Augmented Generation (RAG)** system .
 
 It reads a complex IMF PDF report (such as the Qatar Article IV) and breaks it into:
 
